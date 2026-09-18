@@ -1,0 +1,18 @@
+[project]
+name = "azure-devops-mcp"
+version = "0.1.0"
+description = "Local MCP Server for Azure DevOps"
+requires-python = ">=3.10"
+dependencies = [
+    "mcp[cli]>=1.0.0,<2.0.0",
+    "azure-devops>=7.1.0b4",
+    "azure-identity>=1.17.0",
+    "msrest>=0.7.1",
+    "requests>=2.31.0",
+    "python-dotenv>=1.0.0",
+    "msal>=1.27.0",
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
